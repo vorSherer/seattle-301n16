@@ -37,8 +37,7 @@ function displayPics(){
   }
   console.log(rando);
   // TODO: In a sentence or two, explain why the previous line of code threw an error when we changed the variable declaration from `var to `let`.
-  //A ReferenceError is thrown by 'let' because the let-declared variable is in a Temporal Dead Zone.
-  // PUT YOUR RESPONSE IN THIS COMMENT
+  //A ReferenceError is thrown by rando in line 38 because the 'let'-declared variable is in a Temporal Dead Zone.
   console.log(viewed);
 
   for (let i = 0; i < 3; i++){
