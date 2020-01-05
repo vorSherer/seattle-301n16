@@ -24,6 +24,7 @@ function Product(name) {
   allProducts.push(this);
 }
 
+
 function makeRandom() {
   return Math.floor(Math.random() * names.length);
 }
