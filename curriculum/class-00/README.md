@@ -1,4 +1,4 @@
-## Overview
+# Overview
 
 The labs in this folder should be completed independently prior to the first Code 301 lecture.
 
