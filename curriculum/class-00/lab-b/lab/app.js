@@ -148,7 +148,7 @@ let joe = new Student('Joe', 'Schmoe', 100);
 
 // TODO: Uncomment the following line of code to see the output in the browser console
 // Note that the arrow function will cause this code to break!
-console.log(joe);
+// console.log(joe);
 
 // TODO: After viewing the previous console.log(), return the code to a working state.
 
@@ -167,8 +167,7 @@ Student.prototype.greeting = function() {
 Student.courseName = () => 'This student is enrolled in Code 301.';
 
 // TODO: Uncomment the following line of code to see the output in the browser console
-console.log(Student.courseName());
-
+// console.log(Student.courseName());
 
 
 // STEP 11
@@ -178,17 +177,18 @@ Student.prototype.scope = function() {
 };
 
 // TODO: Uncomment the following line of code to see the output in the browser console
-// console.log(joe.scope());
+console.log(joe.scope());
 
 Student.prototype.scopeArrow = () => console.log(this);
 
 // TODO: Uncomment the following line of code to see the output in the browser console
-// console.log(joe.scopeArrow());
+console.log(joe.scopeArrow());
 
 // TODO: Write a COMMENT below to answer the following questions.
 // 1. What is "this" when joe.scope() is invoked?
-//
+//'This' points to an undefined function that is a prototype of the joe Student instance (Student.proto.scope: f () )
 // 2. What is "this" when joe.scopeArrow() is invoked?
-//
+//Since Arrow functions thwart the This binding, the Window (the highest level) becomes the default destination.
 // 3. Explain why "this" is different when an arrow function is used.
-//
+// "An arrow function does not have its own 'this.' The 'this' value of the enclosing lexical scope is used; arrow functions follow the normal variable lookup rules. So while searching for 'this' which is not present in current scope, an arrow function ends up finding the 'this' from its enclosing scope." 
+// The above sourced from the "no separate this" section of this page; https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions
