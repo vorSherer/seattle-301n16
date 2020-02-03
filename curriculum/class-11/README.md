@@ -19,8 +19,27 @@ Today is the first day of our new project, a mobile-only book collection. You wi
 ## Learning Objectives
 
 As a result of completing lecture 11 of Code 301, students will:
-- Understand how to architect a full-stack web application 
+
+- Understand how to architect a full-stack web application
 - Create a schema to model data
 - Interact with the Google Books API to search for books based on user queries
 - Display API results to the user, hiding certain details for a smooth user experience
 - Be able to dynamically render information to the user through the use of a server-side templating library
+
+## Feedback Survey Thoughts and Trends
+
+- More time with the TAs wanted
+  - TAs were a big help, but are pretty busy
+- Switching of instructor styles was definitely noticed
+  - Disruptive of Rhythm
+  - But good get a nice summary of the week
+- Overall lecture structure
+  - Preparedness
+  - Debugging
+  - Repeating of code was seen as good and bad
+  - "I found lectures not especially helpful as I tend to find other resources to help me out"
+    - ^ Good and Bad
+- Mixed feelings on pair programming
+  - "I can see the value of it, but it doesn't work for me" (huh?)
+- More rubric insights, grading solidarity, inline feedback wanted
+- Monitors in the co-working space!
