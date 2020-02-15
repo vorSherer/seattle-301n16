@@ -17,4 +17,3 @@ module.exports = client;
 // NOTE:
 // When you have multiple modules that need access to the same thing
 // One approach is to put it in a module like this, and have them both require it
-

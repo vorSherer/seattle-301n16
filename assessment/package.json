@@ -1,7 +1,7 @@
 {
   "name": "301-final-assessment",
   "version": "1.0.0",
-  "description": "",
+  "description": "Student: Thomas Sherer Date:    2020-02-15 Start:   1300 L Finish:",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
