@@ -1,4 +1,8 @@
 # 301 Assessment
+Student: Thomas Sherer
+Date:    2020-02-15
+Start:   1300 L
+Finish:  
 
 Our company has completed the "Proof of Concept" phase of our "Most Popular Star Wars Characters" application. It's time to add some polish and new features to this application, and get it deployed.
 
@@ -34,7 +38,7 @@ Add the following functionality to the application
    1. Load jQuery from a CDN
    1. Replace as much of the existing vanilla JS with jQuery best practices
 
-1. Convert the existing CSS to SMACSS organiztion
+1. Convert the existing CSS to SMACSS organization
 
 1. Add some creative styling to the application, adding styles to the appropriate SMACSS files
    1. Use flexbox or grid to lay out the character cards in a responsive grid.
@@ -88,4 +92,4 @@ Add the following functionality to the application
    1. Create a `put` route on the server to handle this, called `/characters/:name`
    1. When this server-side route is invoked, add one to the click count for the named character in the database
    1. Respond back to the client with a redirect to the index page
-   1. Find a way to automatically load enough data to ensure the most recently changed charcter is showing on the screen
+   1. Find a way to automatically load enough data to ensure the most recently changed character is showing on the screen
