@@ -1,12 +1,12 @@
 .character {
-    background: #fff;
+    background: #ffd457;
     box-shadow: 0 10px 6px -6px #777;
     margin: 1em;
-    width: 250px;
+    width: 150px;
 }
 
 .character header {
-    background: #ddd;
+    background: #ff9200;
     line-height: 1.5em;
     text-align: center;
 }
