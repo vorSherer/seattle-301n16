@@ -9,19 +9,13 @@ As it currently stands, the application works as follows...
 
 ## Getting Started
 
-1. Copy the contents of this folder to your machines
+1. Clone this repository to your machines
 1. Create a postgres database called `code_301_assessment`
 1. Copy `.env-sample` to `.env`, making any changes appropriate for your system
 1. From within the folder you cloned into, run these commands
    1. `psql code_301_assessment -f ./sql/schema.sql`
    1. `npm install`
    1. `nodemon` or `npm start`
-
-## Submission Instructions
-
-1. Create a .zip file of the folder containing your code
-   - Do not include your node_modules folder!
-1. Upload this file to the "Assessment" assignment in canvas
 
 ## Feature Requirements
 
@@ -40,7 +34,7 @@ Add the following functionality to the application
    1. Load jQuery from a CDN
    1. Replace as much of the existing vanilla JS with jQuery best practices
 
-1. Convert the existing CSS to SMACSS organization
+1. Convert the existing CSS to SMACSS organiztion
 
 1. Add some creative styling to the application, adding styles to the appropriate SMACSS files
    1. Use flexbox or grid to lay out the character cards in a responsive grid.
@@ -94,4 +88,4 @@ Add the following functionality to the application
    1. Create a `put` route on the server to handle this, called `/characters/:name`
    1. When this server-side route is invoked, add one to the click count for the named character in the database
    1. Respond back to the client with a redirect to the index page
-   1. Find a way to automatically load enough data to ensure the most recently changed character is showing on the screen
+   1. Find a way to automatically load enough data to ensure the most recently changed charcter is showing on the screen
