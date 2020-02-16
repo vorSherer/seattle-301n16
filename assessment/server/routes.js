@@ -38,6 +38,15 @@ function fetchCharactersFromSWAPI(pageNumber) {
 }
 
 
+// Use a superagent call to get an additional page of characters
+// function fetchMoreCharactersFromSWAPI(req, res) {
+
+//   fetchCharactersFromSWAPI(2)
+//     .then(data => res.render('index', data))
+//     .catch(error => { throw error; });
+// }
+
+
 // For each individual in the list of results, see if they
 // had a database entry and get the number of likes.
 // Add a .likes property to the character with that number if found
@@ -45,7 +54,7 @@ function getNumberOfLikes(data) {
 
   let names = data.results.map(person => person.name);
 
-  let SQL = "SELECT * FROM click_counts WHERE remote_id = ANY($1)";
+  let SQL = 'SELECT * FROM click_counts WHERE remote_id = ANY($1)';
 
   return database.query(SQL, [names])
 
