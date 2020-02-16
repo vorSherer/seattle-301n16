@@ -17,6 +17,11 @@ const morgan = require('morgan');
 // Sending 'dev' as the argument tells Morgan to log only a few important details
 app.use(morgan('dev'));
 
+// Handlebars templating language added
+const Handlebars = require('handlebars');
+// const template = Handlebars.compile("Name: {{results.name}}");
+
+
 // **** Import our custom Node modules ****
 
 // Our database client. Will use this to connect to Postgres
@@ -44,6 +49,9 @@ app.get('/', routes.homePageHandler);
 // Wire in the defaults we required above.
 app.use('*', defaults.notFoundHandler);
 app.use(defaults.errorHandler);
+
+// // AJAX Get 
+// app.get('/characters', routes.fetchMoreCharactersFromSWAPI);
 
 // Start the web server on a port (defaults to 3000), after we connect to the database
 function startServer() {

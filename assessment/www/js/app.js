@@ -13,3 +13,13 @@ function likeMe(e) {
   count++;
   counter.textContent = count;
 }
+
+// let moreCharsButton = $('#more-chars');
+
+// for(let i = 0; i < moreCharsButton.length; i++) {
+//   moreCharsButton[i].addEventListener('click', getMoreChars);
+// }
+
+// function getMoreChars(e) {
+//   let swapiPage = fetchCharactersFromSWAPI([i]);
+// }
